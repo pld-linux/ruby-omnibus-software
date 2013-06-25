@@ -10,6 +10,7 @@ Source0:	https://github.com/opscode/omnibus-software/tarball/master?/%{pkgname}-
 URL:		https://github.com/opscode/omnibus-software
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
+BuildRequires:	ruby-bundler
 BuildRequires:	ruby-rake
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
